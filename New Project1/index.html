@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chokokutai&family=Dancing+Script:wght@700&family=Oswald:wght@700&family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+ 
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #9a6767;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #b55d5d;
+            text-align: center;
+            padding: 1rem;
+            display: flex; 
+            align-items: center; 
+        }
+
+        h1 {
+            margin: 0;
+            font-family: 'Bebas Neue', sans-serif;
+font-family: 'Chokokutai', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin-left: 130px;
+        }
+
+        .logo img {
+            width: 200px; 
+            height: 80px; 
+            margin-right: 10px; 
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h1:hover{opacity: 0.5;
+        transition: 0.3s;}
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product-details {
+            padding: 1rem;
+        }
+
+        .product-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .product-button {
+            display: block;
+            width: 100%;
+            padding: 0.5rem;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .product-button:hover {
+            background-color: #555;
+        }
+
+        .product-card:nth-child(1) {
+            width: 350px;
+            height: 400px;
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+        }
+
+        .product-card:nth-child(2) {
+            width: 350px;
+            height: 400px;
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+        }
+
+        .product-card:nth-child(3) {
+            width: 350px;
+            height: 400px;
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+        }
+
+        .product-card:nth-child(4) {
+            width: 350px;
+            height: 400px;
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+        }
+
+        .product-card:nth-child(5) {
+            width: 350px;
+            height: 400px;
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+        }
+        @media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .product-card {
+        width: 90%; 
+        margin-bottom: 20px; 
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Screenshot 2023-09-10 142533.png" alt="Logo">
+        </div>
+      <a href="./Q&A.html">  <h1>Q&A</h1>  </a>
+    </header>
+    <div class="container">
+        <div class="product-card">
+            <img class="product-image" src="product1.jpg" alt="Product 1">
+            <div class="product-details">
+                <div class="product-title">Product 1</div>
+                <div class="product-description">This is an amazing product with unique features.</div>
+                <a class="product-button" href="https://www.youtube.com">Take A Look</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img class="product-image" src="product2.jpg" alt="Product 2">
+            <div class="product-details">
+                <div class="product-title">Product 2</div>
+                <div class="product-description">Discover the latest innovation in technology.</div>
+                <a class="product-button" href="https://www.youtube.com">Take A Look</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img class="product-image" src="product3.jpg" alt="Product 3">
+            <div class="product-details">
+                <div class="product-title">Product 3</div>
+                <div class="product-description">Experience excellence in design and functionality.</div>
+                <a class="product-button" href="https://www.youtube.com">Take A Look</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img class="product-image" src="product4.jpg" alt="Product 4">
+            <div class="product-details">
+                <div class="product-title">Product 4</div>
+                <div class="product-description">Enhance your life with this cutting-edge product.</div>
+                <a class="product-button" href="https://www.youtube.com">Take A Look</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img class="product-image" src="product5.jpg" alt="Product 5">
+            <div class="product-details">
+                <div class="product-title">Product 5</div>
+                <div class="product-description">Get ready to be amazed by this revolutionary product.</div>
+                <a class="product-button" href="https://www.youtube.com">Take A Look</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
